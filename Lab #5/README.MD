@@ -1,4 +1,4 @@
-# CISC 3140 lab5
+# CISC 3140 Lab5
 
 ## Notes: 
 I made a folder called Logs for the Putty Logs and I uploaded the .txt because the putty logs were filled with random characters plus I felt that the .txt was more cleaner.
