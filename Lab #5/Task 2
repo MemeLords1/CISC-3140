@@ -1,42 +1,0 @@
-=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.26 03:01:57 =~=~=~=~=~=~=~=~=~=~=~=
-login as: thochen
-Pre-authentication banner message from server:
-| Access to Brooklyn College computers is restricted to authorized users
-|         and approved educational and research purposes, only.
-End of banner message from server
-thochen@146.245.252.28's password: 
-Last login: Sat Sep 26 02:59:07 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
-]0;thochen@sol28:~[?1034h[thochen@sol28 ~]$ cd Lab5/[K
-]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ ls
-[0m[01;34mml-latest-small[0m  [01;31mmovies.zip[0m
-]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ l[Kmkdir ShellScript
-]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ ls
-[0m[01;34mml-latest-small[0m  [01;31mmovies.zip[0m  [01;34mShellScript[0m
-]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ cd ShellScript/[K
-]0;thochen@sol28:~/Lab5/ShellScript[thochen@sol28 ShellScript]$ nano
-[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                New Buffer                                      [23;1H^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[24;1H[?1049l[?1l>[?1049h[1;61r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.3.1                New Buffer                                      [23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.3.1                New Buffer                                      [23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[60d[1;33H(B[0;7m       New Buffer[1;81H                      [23;1H(B[m[K[24d[K[60d(B[0;7m^G(B[m Get Help	 (B[0;7m^O(B[m WriteOut	  (B[0;7m^R(B[m Read File     (B[0;7m^Y(B[m Prev Page     (B[0;7m^K(B[m Cut Text[86G(B[0;7m^C(B[m Cur Pos[61d(B[0;7m^X(B[m Exit[61;18H(B[0;7m^J(B[m Justify	  (B[0;7m^W(B[m Where Is	   (B[0;7m^V(B[m Next Page     (B[0;7m^U(B[m UnCut Text    (B[0;7m^T(B[m To Spell[3d[1;93H(B[0;7mModified[3d(B[mcurl http://files.grouplens.org/datasets/movielens/ml-latest-small.zip --output movies.zip[4dunzip movies.zip[5dcd ml-latest-small[6dcat ratings.csv | cut -d \, -f 3 > Ratings.txt     [Z [Z     [Z >[K[Z3 >[Z >[K[Z2 >[Z >> movieId.txt[7dsort movieID  Id.txt -o SortId.  D.txt[8dHead   [Khead SortID.txt[59d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                          [60;1H Y(B[m Yes[K[61d(B[0;7m N(B[m No  [61;17H(B[0;7m^C(B[m Cancel[K[59;62H(B[0;7mFile Name to Write:                                         [60d^G(B[m Get Help[60;26H(B[0;7mM-D(B[m DOS Format[60;51H(B[0;7mM-A(B[m Append[60;76H(B[0;7mM-B(B[m Backup File[61d(B[0;7m^C(B[m Cancel	         (B[0;7mM-M(B[m Mac Format[61;51H(B[0;7mM-P(B[m Prepend[59;21H(B[0;7mI(B[m(B[0;7md(B[m(B[0;7mS(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mD(B[m(B[0;7mS(B[m(B[0;7mo(B[m(B[0;7mr(B[m(B[0;7mt(B[m(B[0;7m.(B[m(B[0;7ms(B[m(B[0;7mh(B[m[60d[39;49m(B[m[J[1;38H(B[0;7mFile: IDSort.sh[1;93H        [59;42H(B[m[1K (B[0;7m[ Wrote 6 lines ](B[m[K[61;102H[61;1H[?1049l[?1l>]0;thochen@sol28:~/Lab5/ShellScript[thochen@sol28 ShellScript]$ ls
-IDSort.sh
-]0;thochen@sol28:~/Lab5/ShellScript[thochen@sol28 ShellScript]$ head [K[K[K[K[Kbbash[K[K[K[Kash IDSort.sh [K
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0 50  955k   50  486k    0     0  81465      0  0:00:12  0:00:06  0:00:06  105k100  955k  100  955k    0     0   149k      0  0:00:06  0:00:06 --:--:--  246k
-Archive:  movies.zip
-   creating: ml-latest-small/
-  inflating: ml-latest-small/links.csv  
-  inflating: ml-latest-small/tags.csv  
-  inflating: ml-latest-small/ratings.csv  
-  inflating: ml-latest-small/README.txt  
-  inflating: ml-latest-small/movies.csv  
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-]0;thochen@sol28:~/Lab5/ShellScript[thochen@sol28 ShellScript]$ ls
-IDSort.sh  [0m[01;34mml-latest-small[0m  [01;31mmovies.zip[0m
-]0;thochen@sol28:~/Lab5/ShellScript[thochen@sol28 ShellScript]$ 
