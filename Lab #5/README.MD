@@ -1,9 +1,9 @@
-## CISC 3140 lab5
+# CISC 3140 lab5
 
-# Notes: 
+## Notes: 
 I made a folder called Logs for the Putty Logs and I uploaded the .txt because the putty logs were filled with random characters plus I felt that the .txt was more cleaner.
 
-# Terminal Log Files/Task:
+## Terminal Log Files/Task:
 
 For Task 1, I had to select a column from a CSV file using the terminal with putty. I had to googled all the necessary commands. First, I used curl to download a zip archive 
 containing a CSV file to a directory called Lab5/NLab5. Then I used unzip to extract the contents of the zip file. I navigated in terminal to the subdirectory created 
