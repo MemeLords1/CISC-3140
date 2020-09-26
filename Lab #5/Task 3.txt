@@ -1,0 +1,99 @@
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password:
+Access denied
+thochen@146.245.252.28's password:
+Last failed login: Sat Sep 26 04:04:28 EDT 2020 from pool-108-46-44-78.nycmny.fi                  os.verizon.net on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Sat Sep 26 04:00:33 2020 from pool-108-46-44-78.nycmny.fios.verizon.                  net
+[thochen@sol28 ~]$ cd NLab5/
+[thochen@sol28 NLab5]$ ls
+ml-latest-small  movies.zip  ShellScript
+[thochen@sol28 NLab5]$ mkdir Task3
+[thochen@sol28 NLab5]$ ls
+ml-latest-small  movies.zip  ShellScript  Task3
+[thochen@sol28 NLab5]$ cd Task3
+[thochen@sol28 Task3]$ convert -version
+Version: ImageMagick 6.9.10-68 Q16 x86_64 2020-04-01 https://imagemagick.org
+Copyright: © 1999-2019 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC Modules OpenMP(3.1)
+Delegates (built-in): bzlib cairo fontconfig freetype gslib jng jpeg lcms ltdl l                  zma openexr pangocairo png ps rsvg tiff wmf x xml zlib
+[thochen@sol28 Task3]$ ls
+[thochen@sol28 Task3]$ curl https://s2.ezgif.com/zip/ezgif-2-09d685af0304-gif-im --output gif.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3782k  100 3782k    0     0   469k      0  0:00:08  0:00:08 --:--:-- 1066k
+[thochen@sol28 Task3]$ ls
+gif.zip
+[thochen@sol28 Task3]$ unzip gif.zip
+Archive:  gif.zip
+  inflating: frame_00_delay-0.1s.gif
+  inflating: frame_01_delay-0.1s.gif
+  inflating: frame_02_delay-0.1s.gif
+  inflating: frame_03_delay-0.1s.gif
+  inflating: frame_04_delay-0.1s.gif
+  inflating: frame_05_delay-0.1s.gif
+  inflating: frame_06_delay-0.1s.gif
+  inflating: frame_07_delay-0.1s.gif
+  inflating: frame_08_delay-0.1s.gif
+  inflating: frame_09_delay-0.1s.gif
+  inflating: frame_10_delay-0.1s.gif
+  inflating: frame_11_delay-0.1s.gif
+  inflating: frame_12_delay-0.1s.gif
+  inflating: frame_13_delay-0.1s.gif
+  inflating: frame_14_delay-0.1s.gif
+  inflating: frame_15_delay-0.1s.gif
+  inflating: frame_16_delay-0.1s.gif
+  inflating: frame_17_delay-0.1s.gif
+  inflating: frame_18_delay-0.1s.gif
+  inflating: frame_19_delay-0.1s.gif
+  inflating: frame_20_delay-0.1s.gif
+  inflating: frame_21_delay-0.1s.gif
+  inflating: frame_22_delay-0.1s.gif
+  inflating: frame_23_delay-0.1s.gif
+  inflating: frame_24_delay-0.1s.gif
+  inflating: frame_25_delay-0.1s.gif
+  inflating: frame_26_delay-0.1s.gif
+  inflating: frame_27_delay-0.1s.gif
+  inflating: frame_28_delay-0.1s.gif
+  inflating: frame_29_delay-0.1s.gif
+  inflating: frame_30_delay-0.1s.gif
+  inflating: frame_31_delay-0.1s.gif
+  inflating: frame_32_delay-0.1s.gif
+[thochen@sol28 Task3]$ ls
+frame_00_delay-0.1s.gif  frame_12_delay-0.1s.gif  frame_24_delay-0.1s.gif
+frame_01_delay-0.1s.gif  frame_13_delay-0.1s.gif  frame_25_delay-0.1s.gif
+frame_02_delay-0.1s.gif  frame_14_delay-0.1s.gif  frame_26_delay-0.1s.gif
+frame_03_delay-0.1s.gif  frame_15_delay-0.1s.gif  frame_27_delay-0.1s.gif
+frame_04_delay-0.1s.gif  frame_16_delay-0.1s.gif  frame_28_delay-0.1s.gif
+frame_05_delay-0.1s.gif  frame_17_delay-0.1s.gif  frame_29_delay-0.1s.gif
+frame_06_delay-0.1s.gif  frame_18_delay-0.1s.gif  frame_30_delay-0.1s.gif
+frame_07_delay-0.1s.gif  frame_19_delay-0.1s.gif  frame_31_delay-0.1s.gif
+frame_08_delay-0.1s.gif  frame_20_delay-0.1s.gif  frame_32_delay-0.1s.gif
+frame_09_delay-0.1s.gif  frame_21_delay-0.1s.gif  gif.zip
+frame_10_delay-0.1s.gif  frame_22_delay-0.1s.gif
+frame_11_delay-0.1s.gif  frame_23_delay-0.1s.gif
+[thochen@sol28 Task3]$ convert -delay 20 -loop 0 *.gif Gnome.gif
+[thochen@sol28 Task3]$ ls
+frame_00_delay-0.1s.gif  frame_12_delay-0.1s.gif  frame_24_delay-0.1s.gif
+frame_01_delay-0.1s.gif  frame_13_delay-0.1s.gif  frame_25_delay-0.1s.gif
+frame_02_delay-0.1s.gif  frame_14_delay-0.1s.gif  frame_26_delay-0.1s.gif
+frame_03_delay-0.1s.gif  frame_15_delay-0.1s.gif  frame_27_delay-0.1s.gif
+frame_04_delay-0.1s.gif  frame_16_delay-0.1s.gif  frame_28_delay-0.1s.gif
+frame_05_delay-0.1s.gif  frame_17_delay-0.1s.gif  frame_29_delay-0.1s.gif
+frame_06_delay-0.1s.gif  frame_18_delay-0.1s.gif  frame_30_delay-0.1s.gif
+frame_07_delay-0.1s.gif  frame_19_delay-0.1s.gif  frame_31_delay-0.1s.gif
+frame_08_delay-0.1s.gif  frame_20_delay-0.1s.gif  frame_32_delay-0.1s.gif
+frame_09_delay-0.1s.gif  frame_21_delay-0.1s.gif  gif.zip
+frame_10_delay-0.1s.gif  frame_22_delay-0.1s.gif  Gnome.gif
+frame_11_delay-0.1s.gif  frame_23_delay-0.1s.gif
+[thochen@sol28 Task3]$ mv Gnome.gif Task3Finish/
+[thochen@sol28 Task3]$ cd Task3Finish/
+[thochen@sol28 Task3Finish]$ ls
+Gnome.gif
+[thochen@sol28 Task3Finish]$
+

@@ -1,0 +1,54 @@
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password:
+Last failed login: Sat Sep 26 03:56:45 EDT 2020 from pool-108-46-44-78.nycmny.fios.verizon.net on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Sat Sep 26 03:55:07 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+[thochen@sol28 ~]$ cd NLab5/
+[thochen@sol28 NLab5]$ curl http://files.grouplens.org/datasets/movielens/ml-latest-small.zip --output movies.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  955k  100  955k    0     0   149k      0  0:00:06  0:00:06 --:--:--  195k
+[thochen@sol28 NLab5]$ ls
+movies.zip
+[thochen@sol28 NLab5]$ unzip movies.zip
+Archive:  movies.zip
+   creating: ml-latest-small/
+  inflating: ml-latest-small/links.csv
+  inflating: ml-latest-small/tags.csv
+  inflating: ml-latest-small/ratings.csv
+  inflating: ml-latest-small/README.txt
+  inflating: ml-latest-small/movies.csv
+[thochen@sol28 NLab5]$ ls
+ml-latest-small  movies.zip
+[thochen@sol28 NLab5]$ cd ml-latest-small/
+[thochen@sol28 ml-latest-small]$ ls
+links.csv  movies.csv  ratings.csv  README.txt  tags.csv
+[thochen@sol28 ml-latest-small]$ head ratings.csv
+userId,movieId,rating,timestamp
+1,1,4.0,964982703
+1,3,4.0,964981247
+1,6,4.0,964982224
+1,47,5.0,964983815
+1,50,5.0,964982931
+1,70,3.0,964982400
+1,101,5.0,964980868
+1,110,4.0,964982176
+1,151,5.0,964984041
+[thochen@sol28 ml-latest-small]$ cat ratings.csv | cut -d \, -f 2 > movieid.txt
+[thochen@sol28 ml-latest-small]$ sort movieid.txt -o SortID.txt
+[thochen@sol28 ml-latest-small]$ head SortID.txt
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+[thochen@sol28 ml-latest-small]$
