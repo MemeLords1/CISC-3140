@@ -1,0 +1,42 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.26 02:58:57 =~=~=~=~=~=~=~=~=~=~=~=
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password: 
+Last login: Sat Sep 26 02:58:36 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+]0;thochen@sol28:~[?1034h[thochen@sol28 ~]$ mkdir Lab5
+]0;thochen@sol28:~[thochen@sol28 ~]$ cd Lab5/[K
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ curk[Klhttp://files.grouplens.org/datasets/movielens/ml-lates t-small.zip --output movies.zip[Ad Lab5[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Curlhttp://files.grouplens.org/datasets/movielens/ml-latestt-small.zip --output movies.zip[Ad Lab5[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Curlhttp://files.grouplens.org/datasets/movielens/ml-latestt-small.zip --output movies.zip[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C http://files.grouplens.org/datasets/movielens/ml-lates[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0 83  955k   83  793k    0     0   124k      0  0:00:07  0:00:06  0:00:01  163k100  955k  100  955k    0     0   148k      0  0:00:06  0:00:06 --:--:--  243k
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ unzip movies.zip 
+Archive:  movies.zip
+   creating: ml-latest-small/
+  inflating: ml-latest-small/links.csv  
+  inflating: ml-latest-small/tags.csv  
+  inflating: ml-latest-small/ratings.csv  
+  inflating: ml-latest-small/README.txt  
+  inflating: ml-latest-small/movies.csv  
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ cd ml-latest-small/[K
+]0;thochen@sol28:~/Lab5/ml-latest-small[thochen@sol28 ml-latest-small]$ ls
+links.csv  movies.csv  ratings.csv  README.txt  tags.csv
+]0;thochen@sol28:~/Lab5/ml-latest-small[thochen@sol28 ml-latest-small]$ cat ratings.csv \[K| cut -d\[K \, -f 2 > Movie[K[K[K[K[KmovieId.txt
+]0;thochen@sol28:~/Lab5/ml-latest-small[thochen@sol28 ml-latest-small]$ sort moviei[KId.txt -o SortId[KD.txt
+]0;thochen@sol28:~/Lab5/ml-latest-small[thochen@sol28 ml-latest-small]$ head SortID.txt 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+]0;thochen@sol28:~/Lab5/ml-latest-small[thochen@sol28 ml-latest-small]$ 
