@@ -1,0 +1,98 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.26 03:18:18 =~=~=~=~=~=~=~=~=~=~=~=
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password: 
+Last login: Sat Sep 26 03:13:33 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+]0;thochen@sol28:~[?1034h[thochen@sol28 ~]$ cd
+]0;thochen@sol28:~[thochen@sol28 ~]$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mLab5[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;thochen@sol28:~[thochen@sol28 ~]$ cd Lab5/[K
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ ls[K[Kls
+[0m[01;34mml-latest-small[0m  [01;31mmovies.zip[0m  [01;34mShellScript[0m
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ cd[K[Kmkdir Task3
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ ls
+[0m[01;34mml-latest-small[0m  [01;31mmovies.zip[0m  [01;34mShellScript[0m  [01;34mTask3[0m
+]0;thochen@sol28:~/Lab5[thochen@sol28 Lab5]$ cd Task3/[K
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ ls
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ sudo apt install imagemagick
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for thochen: 
+thochen is not in the sudoers file.  This incident will be reported.
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ convert -version
+Version: ImageMagick 6.9.10-68 Q16 x86_64 2020-04-01 https://imagemagick.org
+Copyright: © 1999-2019 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC Modules OpenMP(3.1) 
+Delegates (built-in): bzlib cairo fontconfig freetype gslib jng jpeg lcms ltdl lzma openexr pangocairo png ps rsvg tiff wmf x xml zlib
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ curl http://gifimgs.com/res/0920/5f6eedf804a2d346066208/f rames.zip?download -- [Kgif/[K.zip
+curl: option --gif.zip: is unknown
+curl: try 'curl --help' or 'curl --manual' for more information
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ curl http://gifimgs.com/res/0920/5f6eedf804a2d346066208/frrames.zip?download --gif.zipogif.zipugif.ziptgif.zippgif.zipugif.ziptgif.zip gif.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0 69 3219k   69 2253k    0     0   358k      0  0:00:08  0:00:06  0:00:02  471k100 3219k  100 3219k    0     0   498k      0  0:00:06  0:00:06 --:--:--  816k
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ ls
+[0m[01;31mgif.zip[0m
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ unzip gif.zip 
+Archive:  gif.zip
+  inflating: 24.gif                  
+  inflating: 20.gif                  
+  inflating: 4.gif                   
+  inflating: 3.gif                   
+  inflating: 16.gif                  
+  inflating: 9.gif                   
+  inflating: 21.gif                  
+  inflating: 5.gif                   
+  inflating: 7.gif                   
+  inflating: 10.gif                  
+  inflating: 14.gif                  
+  inflating: 32.gif                  
+  inflating: 6.gif                   
+  inflating: 2.gif                   
+  inflating: 8.gif                   
+  inflating: 26.gif                  
+  inflating: 23.gif                  
+  inflating: 19.gif                  
+  inflating: 31.gif                  
+  inflating: 22.gif                  
+  inflating: 18.gif                  
+  inflating: 17.gif                  
+  inflating: 1.gif                   
+  inflating: 12.gif                  
+  inflating: 30.gif                  
+  inflating: 25.gif                  
+  inflating: 0.gif                   
+  inflating: 28.gif                  
+  inflating: 29.gif                  
+  inflating: 27.gif                  
+  inflating: 15.gif                  
+  inflating: 13.gif                  
+  inflating: 11.gif                  
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ ls
+[0m[01;35m0.gif[0m   [01;35m13.gif[0m  [01;35m17.gif[0m  [01;35m20.gif[0m  [01;35m24.gif[0m  [01;35m28.gif[0m  [01;35m31.gif[0m  [01;35m5.gif[0m  [01;35m9.gif[0m
+[01;35m10.gif[0m  [01;35m14.gif[0m  [01;35m18.gif[0m  [01;35m21.gif[0m  [01;35m25.gif[0m  [01;35m29.gif[0m  [01;35m32.gif[0m  [01;35m6.gif[0m  [01;31mgif.zip[0m
+[01;35m11.gif[0m  [01;35m15.gif[0m  [01;35m19.gif[0m  [01;35m22.gif[0m  [01;35m26.gif[0m  [01;35m2.gif[0m   [01;35m3.gif[0m   [01;35m7.gif[0m
+[01;35m12.gif[0m  [01;35m16.gif[0m  [01;35m1.gif[0m   [01;35m23.gif[0m  [01;35m27.gif[0m  [01;35m30.gif[0m  [01;35m4.gif[0m   [01;35m8.gif[0m
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ bbash[K[K[K[Kash 0.gif 
+0.gif: 0.gif: cannot execute binary file
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ convert 0.gif 2.gif 3.gif 4.gif 5.gif 6.gif [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*.gif comb[K[K[K[K[K[K[K[K[K[K-delay 20[K[K10 -loop 0 *.gif Gnome.gif
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ ls
+[0m[01;35m0.gif[0m   [01;35m13.gif[0m  [01;35m17.gif[0m  [01;35m20.gif[0m  [01;35m24.gif[0m  [01;35m28.gif[0m  [01;35m31.gif[0m  [01;35m5.gif[0m  [01;35m9.gif[0m
+[01;35m10.gif[0m  [01;35m14.gif[0m  [01;35m18.gif[0m  [01;35m21.gif[0m  [01;35m25.gif[0m  [01;35m29.gif[0m  [01;35m32.gif[0m  [01;35m6.gif[0m  [01;31mgif.zip[0m
+[01;35m11.gif[0m  [01;35m15.gif[0m  [01;35m19.gif[0m  [01;35m22.gif[0m  [01;35m26.gif[0m  [01;35m2.gif[0m   [01;35m3.gif[0m   [01;35m7.gif[0m  [01;35mGnome.gif[0m
+[01;35m12.gif[0m  [01;35m16.gif[0m  [01;35m1.gif[0m   [01;35m23.gif[0m  [01;35m27.gif[0m  [01;35m30.gif[0m  [01;35m4.gif[0m   [01;35m8.gif[0m
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ bash gn[K[KGnome.gif [K
+Gnome.gif: Gnome.gif: cannot execute binary file
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ magick animate Gnome.gif
+bash: magick: command not found...
+]0;thochen@sol28:~/Lab5/Task3[thochen@sol28 Task3]$ 
