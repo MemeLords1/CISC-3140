@@ -1,0 +1,67 @@
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password:
+Last login: Mon Oct  5 01:14:46 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+[thochen@sol28 ~]$ cd Desktop/
+[thochen@sol28 Desktop]$ ls
+[thochen@sol28 Desktop]$ mkdir Repo2
+[thochen@sol28 Desktop]$ cd Repo2/
+[thochen@sol28 Repo2]$ svnadmin create .
+[thochen@sol28 Repo2]$ svn co https://github.com/MemeLords1/Repo2.git .
+A    branches
+A    trunk
+A    trunk/README.md
+Checked out revision 1.
+[thochen@sol28 Repo2]$ ls
+branches  conf  db  format  hooks  locks  README.txt  trunk
+[thochen@sol28 Repo2]$ cd trunk/
+[thochen@sol28 trunk]$ nano
+[thochen@sol28 trunk]$ ls
+README.md  test.java
+[thochen@sol28 trunk]$ vim test.java
+
+[1]+  Stopped                 vim test.java
+[thochen@sol28 trunk]$ vim test.java
+[thochen@sol28 trunk]$
+[thochen@sol28 trunk]$ cd ..
+[thochen@sol28 Repo2]$ ls
+branches  conf  db  format  hooks  locks  README.txt  trunk
+[thochen@sol28 Repo2]$ svn add trunk
+svn: warning: W150002: '/users1/st/thochen/Desktop/Repo2/trunk' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+[thochen@sol28 Repo2]$ ls
+branches  conf  db  format  hooks  locks  README.txt  trunk
+[thochen@sol28 Repo2]$ cd trunk/
+[thochen@sol28 trunk]$ ls
+README.md  test.java
+[thochen@sol28 trunk]$ svn add test.java
+A         test.java
+[thochen@sol28 trunk]$ svn commit -m "edit test and commiting"
+Authentication realm: <https://github.com:443> GitHub
+Password for 'thochen':
+Authentication realm: <https://github.com:443> GitHub
+Username: memelords1
+Password for 'memelords1':
+
+-----------------------------------------------------------------------
+ATTENTION!  Your password for authentication realm:
+
+   <https://github.com:443> GitHub
+
+can only be stored to disk unencrypted!  You are advised to configure
+your system so that Subversion can store passwords encrypted, if
+possible.  See the documentation for details.
+
+You can avoid future appearances of this warning by setting the value
+of the 'store-plaintext-passwords' option to either 'yes' or 'no' in
+'/users1/st/thochen/.subversion/servers'.
+-----------------------------------------------------------------------
+Store password unencrypted (yes/no)? no
+Adding         test.java
+Transmitting file data .
+Committed revision 2.
+[thochen@sol28 trunk]$
