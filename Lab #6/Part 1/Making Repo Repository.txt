@@ -1,0 +1,64 @@
+login as: thochen
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+thochen@146.245.252.28's password:
+Last login: Mon Oct  5 00:28:26 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+[thochen@sol28 ~]$ cd Desktop/
+[thochen@sol28 Desktop]$ ls
+Repo1  Repo2
+[thochen@sol28 Desktop]$ rm -rf Repo1
+[thochen@sol28 Desktop]$ rm -rf Repo2
+[thochen@sol28 Desktop]$ ls
+[thochen@sol28 Desktop]$ mkdir Repo
+[thochen@sol28 Desktop]$ ls
+Repo
+[thochen@sol28 Desktop]$ cd Repo/
+[thochen@sol28 Repo]$ ls
+[thochen@sol28 Repo]$ echo "# Repo" >> README.md
+[thochen@sol28 Repo]$ git init
+Initialized empty Git repository in /users1/st/thochen/Desktop/Repo/.git/
+[thochen@sol28 Repo]$ git add README.md
+[thochen@sol28 Repo]$ git commit -m "First"
+[master (root-commit) 20ea956] First
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[thochen@sol28 Repo]$ git branch -m main
+[thochen@sol28 Repo]$ git remote add origin https://github.com/MemeLords1/Repo.git
+[thochen@sol28 Repo]$ git push -u origin main
+Username for 'https://github.com': MemeLords1
+Password for 'https://MemeLords1@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 218 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MemeLords1/Repo.git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+[thochen@sol28 Repo]$ login as: thochen
+[thochen@sol28 Desktop]$ ls
+[thochen@sol28 Desktop]$ mkdir Repo
+[thochen@sol28 Desktop]$ ls
+Repo
+[thochen@sol28 Desktop]$ cd Repo/
+[thochen@sol28 Repo]$ ls
+[thochen@sol28 Repo]$ echo "# Repo" >> README.md
+[thochen@sol28 Repo]$ git init
+Initialized empty Git repository in /users1/st/thochen/Desktop/Repo/.git/
+[thochen@sol28 Repo]$ git add README.md
+[thochen@sol28 Repo]$ git commit -m "First"
+[master (root-commit) 20ea956] First
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[thochen@sol28 Repo]$ git branch -m main
+[thochen@sol28 Repo]$ git remote add origin https://github.com/MemeLords1/Repo.git
+[thochen@sol28 Repo]$ git push -u origin main
+Username for 'https://github.com': MemeLords1
+Password for 'https://MemeLords1@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 218 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MemeLords1/Repo.git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+[thochen@sol28 Repo]$
