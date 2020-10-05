@@ -11,7 +11,7 @@ I then moved the file into CISC-3140 folder by cloneing and then made a another 
 ## Terminal Log Files/Task:
 
 #### Task 1:
-I made a Repository with the command line online and I called it Repo which I then make HelloWorld.java
+I made a Repository with the command line  and I called it Repo which I then make HelloWorld.java
 After I push and made the Repository I then moved HelloWorld into CISC-3140 folder which I store all my Labs and homework for CISC-3140. I then made a seperate folder for LAB #6 with git Init and moved HelloWorld.java into it. I Then Edit HelloWorld to print todays date and pushed it to my Repository. Task 1 folder shows the edited HelloWorld plus the Repository I Created.
 
 #### Task 2:
