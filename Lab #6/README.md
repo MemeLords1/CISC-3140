@@ -1,7 +1,7 @@
 # CISC 3140 Lab 6
 
 ## Notes: 
-The Reason for Below is because I wanted to keep my github orgnized and not have different Repository for CISC-3140 Labs so Instead of moving it to RepoMeta I stored it here.
+I wanted to keep my github orgnized and not have different Repository for CISC-3140 Labs so Instead of moving it to RepoMeta I stored it here.
 I made a Folder called Part 1 where I show the HelloWorld.java that I moved and Edited. Also in that folder is 
 How I made the Repository Called Repo from the command line.
 I then moved the file into CISC-3140 folder by cloneing and then made a another folder called LAB #6 which I moved the Hello World into and Edited it. 
