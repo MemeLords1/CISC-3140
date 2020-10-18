@@ -16,9 +16,9 @@ You will need main.cpp,message.cpp,message.h files for this Makefile to work. Wh
         out: main.o message.o 
                 g++ main.o message.o -o HelloWorldMake
         
-This compares  main.o and message.o to see if any changes were made.
+This compares main.o and message.o to see if any changes were made.
 
-If there are any changes in any one of these .o files they we exucute the g++ main.o message.o -o HelloWorldMake
+If there are any changes in any one of these .o files they we execute the g++ main.o message.o -o HelloWorldMake
 
 If any changes were made to the .o file we will recompile main.o and message.o together into a new file called HelloWorldMake
 
