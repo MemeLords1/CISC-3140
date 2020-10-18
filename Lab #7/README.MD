@@ -5,7 +5,7 @@ For this Lab I decide to use the MakeFile to Print and create a message called "
 
 ## Common Commands
 
-`make` should be typed in the command line to run the Makefile and to exucute the Hello World. 
+`make` should be typed in the command line to run the Makefile and to exucute the Hello World files/output. 
 
 `make clean` make clean deletes all the file that was created by the Makefile and the HelloWorldMake file. The HelloWorldMake File is the Hello World File that you exucute or run to Print Hello World on the command line.
 
