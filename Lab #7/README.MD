@@ -13,7 +13,9 @@ You will need main.cpp,message.cpp,message.h files for this Makefile to work. Wh
 # How the Hello World/Makefile works.
 
 ## First Line
-The First line is out: main.o message.o.
+out: main.o message.o
+        g++ main.o message.o -o HelloWorldMake
+        
 This compares  main.o and message.o to see if any changes were made.
 If there are any changes in any one of these .o files they we exucute the g++ main.o message.o -o HelloWorldMake
 If any changes were made to the .o file we will recompile main.o and message.o together into a new file called HelloWorldMake
@@ -21,11 +23,13 @@ If any changes were made to the .o file we will recompile main.o and message.o t
 ## Second Line
 main.o: main.cpp
   g++ -c main.cpp
+  
 This create a main.o file from main.cpp file whenever main.cpp have any changes.
 
 ## Third Line
 message.o: message.cpp message.h
   g++ -c message.cpp
+  
 this create a message.o file whenever message.cpp or message.h file get modify.
 It will only compile a message.o file from message.cpp but would run whenever either message.cpp or message.h get modify.
 
