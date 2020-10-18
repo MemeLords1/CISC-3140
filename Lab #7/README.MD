@@ -20,7 +20,7 @@ This compares main.o and message.o to see if any changes were made.
 
 If there are any changes in any one of these .o files it will execute the g++ main.o message.o -o HelloWorldMake
 
-This will recompile main.o and message.o together into a new file called HelloWorldMake
+This will recompile main.o and message.o together again into the file called HelloWorldMake
 
 ## Second Line
         main.o: main.cpp 
