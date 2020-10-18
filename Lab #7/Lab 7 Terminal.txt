@@ -1,0 +1,19 @@
+[thochen@sol28 Lab7]$ ls
+main.cpp  Makefile  message.cpp  message.h
+[thochen@sol28 Lab7]$ make
+g++ -c main.cpp
+g++ -c message.cpp
+g++ main.o message.o -o HelloWorldMake
+[thochen@sol28 Lab7]$ ls
+HelloWorldMake  main.cpp  main.o  Makefile  message.cpp  message.h  message.o
+[thochen@sol28 Lab7]$ ./HelloWorldMake
+Hello World
+[thochen@sol28 Lab7]$ ls
+HelloWorldMake  main.cpp  main.o  Makefile  message.cpp  message.h  message.o
+[thochen@sol28 Lab7]$ make clean
+rm *.o HelloWorldMake
+[thochen@sol28 Lab7]$ ls
+main.cpp  Makefile  message.cpp  message.h
+[thochen@sol28 Lab7]$
+
+
