@@ -37,5 +37,6 @@ This Remove all file that ends with .o and HelloWorldMake file itself. This is t
 
 # Notes
 Lab 7 Terminal.txt shows me running the Makefile, Shows the output, and show that the clean command works.
+
 Lab 7 MakeFile.txt shows the Makefile code.
 
