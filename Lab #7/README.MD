@@ -1,6 +1,8 @@
 # README
 For this Lab I decide to use the MakeFile to Print and create a message called "Hello World"
 
+I wanted to do something slightly more then just simply print Hello World. So I made a MakeFile that prints Hello World while combining and using 3 separate files instead of simply just one.
+
 
 ## Common Commands
 
