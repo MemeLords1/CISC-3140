@@ -4,6 +4,8 @@ For this Lab I decide to use the MakeFile to Print and create a message called "
 
 ## Common Commands
 
+You will need main.cpp,message.cpp,message.h files for this Makefile to work. Which could be found in the code called NeededCode.txt
+
 `make` should be typed in the command line to run the Makefile. This would create HelloWorldMake output file which you could run to print Hello World on the command Line.
 
 `make clean` deletes all the file that was created by the Makefile and the HelloWorldMake file. The HelloWorldMake File is the Hello World File that you execute or run to Print Hello World on the command line.
