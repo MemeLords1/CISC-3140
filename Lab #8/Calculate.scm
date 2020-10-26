@@ -1,13 +1,12 @@
-;Task 3
-
+ 
 (display "Please enter a number: ")
 (define val (read))
 (display "Please enter another number: ")
 (define tos (read))
-(define (calculation x y)
-  (if (and (number? x) (number? y))
-      (+ x y)
-      "Must Enter Number")
+(define (calculation val tos)
+  (if (and (number? val) (number? tos))
+      (+ val tos)
+      "You Must Enter Numbers")
 )
  
 (calculation val tos)
