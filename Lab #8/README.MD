@@ -7,4 +7,4 @@
 * A lambda expression that recursively evaluates a sum of series (i.e. fibonacci sequence) given a number that you have inputted (val). This would then return the sum of series.
 
 ## Task 3:
-* Create a function that will calculate two numeric parameters (val) and (tos), but only if they're both valid types for calculation (i.e. a number). Use Scheme's syntax and available functions for checking types. My Programe would return the calcuation between the two input value you have inputted a numeric number. If you haven't then it would then return a String stating "You Must Enter Numbers"
+* Create a function that will calculate two numeric parameters (val) and (tos), but only if they're both valid types for calculation (i.e. a number). Use Scheme's syntax and available functions for checking types. My Program would return the calcuation between the two input value you have inputted a numeric number. If you haven't then it would then return a String stating "You Must Enter Numbers"
