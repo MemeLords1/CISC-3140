@@ -1,8 +1,8 @@
 ;Task 1
 
 ; use: (word " (the string input
-
 ; returns: #t if true, #f is false
+
 (display "Enter using (word \" " )
 (define (word str)
 ; store string in a list
