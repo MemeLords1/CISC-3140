@@ -1,0 +1,17 @@
+;Task 3:
+(display "Please enter a number: ")
+(define val (read))
+(display "Please enter another number: ")
+(define tos (read))
+(display val)
+(display " + ")
+(display tos)
+(display " = ")
+(display (+ tos val))
+
+
+
+
+
+
+
