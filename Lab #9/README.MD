@@ -7,4 +7,5 @@
 
 ## Task:
 
-For lab 9 we had to use a JS Event Listener and one of the option is to Create the (Pong Clone) Game which I decided to create. The game is played and displayed on an web page and with a working event. We use the left and right arrow key to move the paddel left and right 
+For lab 9 we had to use a JS Event Listener and one of the option is to Create the (Pong Clone) Game which I decided to create. 
+The Game is played using the Left and Right Arrow key to move left and right
