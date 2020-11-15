@@ -1,4 +1,5 @@
-# Tutorial 0: SELECT basics
+#Thomas Chen
+#Tutorial 0: SELECT basics
 
 #1. Select the population of Germany using the WHERE clause
 SELECT population FROM world
