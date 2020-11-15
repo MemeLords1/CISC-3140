@@ -1,3 +1,4 @@
+#Thomas Chen
 #Tutorial 2: SELECT from World
 
 #1. Selects the name, continent and population records from world table
