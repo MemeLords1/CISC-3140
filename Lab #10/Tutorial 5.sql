@@ -1,4 +1,5 @@
-# Tutorial 5: SUM and COUNT
+#Thomas Chen
+#Tutorial 5: SUM and COUNT
 
 #1. Show the total popluation of the world
 SELECT SUM(population)
