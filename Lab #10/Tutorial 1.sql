@@ -1,3 +1,4 @@
+#Thomas Chen
 #Tutorial 1: SELECT NAME
 
 #1. Finding Country that start with Y
