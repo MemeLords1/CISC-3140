@@ -1,4 +1,5 @@
-# Tutorial 4: SELECT within SELECT
+#Thomas Chen
+#Tutorial 4: SELECT within SELECT
 
 #1. List Each Country name where the population is larger than that of 'Russia'
 SELECT name FROM world
