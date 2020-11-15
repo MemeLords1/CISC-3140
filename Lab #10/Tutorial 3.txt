@@ -1,3 +1,4 @@
+#Thomas Chen
 #Tutorial 3: SELECT from Nobel
 
 #1. Change the query shown so that it displays Nobel Prizes for 1950
