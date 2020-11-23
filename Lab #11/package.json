@@ -1,0 +1,15 @@
+{
+  "name": "Mario-Kart",
+  "version": "1.0.0",
+  "description": "Mario Kart, made with 100% CSS code",
+  "main": "Mario-Kart.html",
+  "scripts": {
+    "start": "parcel Mario-Kart.html --open",
+    "build": "parcel build Mario-Kart.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

@@ -1,0 +1,195 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+html {
+  padding-top: 16px;
+}
+.keyboard:before {
+  content: "a";
+  left: 16px;
+}
+.keyboard:after {
+  content: "d";
+  right: 16px;
+}
+.keyboard:before,
+.keyboard:after {
+  background: rgba(255, 255, 255, 0.85);
+  position: absolute;
+  top: 50%;
+  transition: 0.3s ease box-shadow, 0.3s ease margin;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  transform: rotateX(30deg);
+  box-shadow: 0 3px 0 0 black;
+}
+.output {
+  pointer-events: none;
+  position: relative;
+  height: 174px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 0 0 10px black;
+  transform-origin: center;
+  transform: scale(2);
+}
+.output:after {
+  content: "🏁 Click to Begin Race 🏁";
+  color: white;
+  position: absolute;
+  transform: translateZ(0);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease opacity;
+  opacity: 0;
+}
+.controller:not(:focus) + .output:after {
+  opacity: 1;
+}
+.controller:not(:placeholder-shown):valid + .output .keyboard:before,
+.controller:not(:placeholder-shown):invalid + .output .keyboard:after {
+  box-shadow: 0 0 0 0 black;
+  margin-top: 6px;
+}
+.controller {
+  cursor: pointer;
+  font-size: 100vw;
+  opacity: 0;
+  border: 0;
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  outline: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-right: 90%;
+}
+.controller::-webkit-search-cancel-button {
+  position: absolute;
+  cursor: pointer;
+  z-index: 99999;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: scale(100);
+}
+
+.explanation {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 99999;
+}
+.explanation:not(:focus-within) {
+  width: 120px;
+  height: 38px;
+  overflow: hidden;
+  padding-top: 100px;
+  top: calc(50% - 194px);
+  right: calc(50% - 236px);
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 16px;
+  font-family: sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.explanation h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0 0 16px;
+  color: #111;
+}
+.explanation h2 {
+  text-transform: uppercase;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+.explanation p {
+  font-size: 16px;
+  margin: 0 0 32px;
+  color: #111;
+}
+.explanation a {
+  color: tomato;
+}
+.explanation + input {
+  display: none;
+}
+.explanation:focus-within + input {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 32px;
+  display: block;
+  width: calc(100% - 64px);
+  padding: 8px 16px;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0;
+  color: black;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.explanation:focus-within + input:hover {
+  color: tomato;
+}
+.explanation:before {
+  content: "(?)";
+  display: block;
+  margin-bottom: 50px;
+}
+.explanation:focus-within:before {
+  display: none;
+}
+.explanation:hover {
+  color: tomato;
+}
+.explanation:focus-within {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  color: #111;
+  padding: 48px 32px 16px;
+  background: white;
+}
