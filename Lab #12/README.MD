@@ -6,4 +6,4 @@
 
 ## Task:
 
-For lab 12 We were tasked to Build a full stack app so I decided to create a Twitter App Copy/Clone.The Video I was Following was and learning from was https://www.youtube.com/watch?v=JnEH9tYLxLk&t=4430s&ab_channel=TheCodingTrain which I found to be very informative and helpful while creating this App.
+For lab 12 We were tasked to Build a full stack app so I decided to create a Twitter App Copy/Clone.The Video I was Following and learning from was https://www.youtube.com/watch?v=JnEH9tYLxLk&t=4430s&ab_channel=TheCodingTrain which I found to be very informative and helpful while creating this App.
